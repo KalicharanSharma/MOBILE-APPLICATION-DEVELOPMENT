@@ -14,10 +14,9 @@ import java.util.Collections;
 
 public class MyService extends Service {
 
-    /**
-     * Name: Arvind Singh
-     * RollNo: 1018451
-     */
+
+
+
 
     private IBinder myBinder = new MyBinder();
     private boolean isRandomGeneratorFlag = false;
@@ -36,7 +35,7 @@ public class MyService extends Service {
     @Override
     public void onCreate() {
         super.onCreate();
-        Toast.makeText(getApplicationContext(), "Service created", Toast.LENGTH_SHORT);
+        Toast.makeText(getApplicationContextService created", Toast.LENGTH_SHORT);
     }
 
     @Nullable
